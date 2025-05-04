@@ -8,6 +8,8 @@
     <string name="category_parks">Парки</string>
     <string name="category_shop_centers">Торговые центры</string>
 
+    //---------------------------------------------------------
+
     //categories_cafe
     <string name="category_cafe_1">Chicko</string>
     <string name="category_cafe_2">Frensis</string>
@@ -21,4 +23,21 @@
     <string name="category_cafe_3_description">Пиццерии «ЕЩЁ!» расположены в шаговой доступности, в каждом районе города Ижевска. Пиццерии стали поистине знаковыми местами – здесь проходят детские праздники, студенческие перемены, романтические свидания, семейные выходные, Дни рождения и дружеские встречи. Теплый интерьер, спокойная музыка, удобный детский уголок и аромат свежевыпеченной пиццы сделают каждый день ЕЩЁ лучше!</string>
     <string name="category_cafe_4_description">«Burger King» — это сеть ресторанов быстрого питания, которая предлагает широкий выбор бургеров, картофеля фри, наггетсов и других блюд.</string>
     <string name="category_cafe_5_description">«Кофе Семь» — это уютное место с красивым видом из окон на собор Александра Невского. Здесь можно позавтракать, пообедать или поужинать, а также провести время за настольными играми</string>
+
+    //---------------------------------------------------------
+
+    //categories_restaurants
+    <string name="category_restaurant_1">Pride</string>
+    <string name="category_restaurant_2">Brauplatz</string>
+    <string name="category_restaurant_3">Нино играет в домино</string>
+    <string name="category_restaurant_4">Вино и Мясо</string>
+    <string name="category_restaurant_5">The Taste</string>
+
+    //categories_restaurants_descriptions
+    <string name="category_restaurant_1_description">Ресторан «Pride» — это идеальное место для проведения различных мероприятий, таких как дни рождения, свадьбы и корпоративы.</string>
+    <string name="category_restaurant_2_description">Ресторан «Brauplatz» — это место, где вы можете насладиться немецкой кухней и тремя сортами собственного пива.</string>
+    <string name="category_restaurant_3_description">Ресторан «Нино играет в домино» предлагает своим гостям блюда грузинской кухни, приготовленные по традиционным рецептам. В меню можно найти такие блюда, как хинкали, хачапури, овощи, приготовленные на мангале, а также медальоны из говядины.</string>
+    <string name="category_restaurant_4_description">Ресторан «Вино и Мясо» — это место, где вы можете насладиться вкусными стейками, салатами, супами и десертами, а также выбрать из обширной винной карты.</string>
+    <string name="category_restaurant_5_description">Ресторан «The Taste» специализируется на авторской кухне, но в меню также представлены блюда удмуртской и европейской кухни, а по будням можно заказать бизнес-ланч.</string>
+
 </resources>
