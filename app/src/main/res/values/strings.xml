@@ -7,4 +7,18 @@
     <string name="category_places">Места для детей</string>
     <string name="category_parks">Парки</string>
     <string name="category_shop_centers">Торговые центры</string>
+
+    //categories_cafe
+    <string name="category_cafe_1">Chicko</string>
+    <string name="category_cafe_2">Frensis</string>
+    <string name="category_cafe_3">ЕЩЁ!</string>
+    <string name="category_cafe_4">Burger King</string>
+    <string name="category_cafe_5">Кофе Семь</string>
+
+    //categories_cafe_descriptions
+    <string name="category_cafe_1_description">«Chicko» — это кафе, стилизованное под Корею, где современная кухня сочетается с атмосферой K-pop. Интерьер выполнен в современном стиле с яркими акцентами и элементами корейского дизайна.</string>
+    <string name="category_cafe_2_description">«Frensis» — это место, где можно провести время в уютной атмосфере, наслаждаясь вкусной едой и красивым оформлением блюд.</string>
+    <string name="category_cafe_3_description">Пиццерии «ЕЩЁ!» расположены в шаговой доступности, в каждом районе города Ижевска. Пиццерии стали поистине знаковыми местами – здесь проходят детские праздники, студенческие перемены, романтические свидания, семейные выходные, Дни рождения и дружеские встречи. Теплый интерьер, спокойная музыка, удобный детский уголок и аромат свежевыпеченной пиццы сделают каждый день ЕЩЁ лучше!</string>
+    <string name="category_cafe_4_description">«Burger King» — это сеть ресторанов быстрого питания, которая предлагает широкий выбор бургеров, картофеля фри, наггетсов и других блюд.</string>
+    <string name="category_cafe_5_description">«Кофе Семь» — это уютное место с красивым видом из окон на собор Александра Невского. Здесь можно позавтракать, пообедать или поужинать, а также провести время за настольными играми</string>
 </resources>
