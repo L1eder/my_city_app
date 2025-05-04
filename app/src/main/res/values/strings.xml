@@ -40,4 +40,20 @@
     <string name="category_restaurant_4_description">Ресторан «Вино и Мясо» — это место, где вы можете насладиться вкусными стейками, салатами, супами и десертами, а также выбрать из обширной винной карты.</string>
     <string name="category_restaurant_5_description">Ресторан «The Taste» специализируется на авторской кухне, но в меню также представлены блюда удмуртской и европейской кухни, а по будням можно заказать бизнес-ланч.</string>
 
+    //---------------------------------------------------------
+
+    //categories_places
+    <string name="category_places_1">Сигма Парк</string>
+    <string name="category_places_2">Батутный центр FUN ZONE</string>
+    <string name="category_places_3">ХАХА парк</string>
+    <string name="category_places_4">KIDO</string>
+    <string name="category_places_5">СЛУШАРИКИ</string>
+
+    //categories_places_descriptions
+    <string name="category_places_1_description">Игровая комната «Сигма парк» — это место, где дети могут весело провести время, играя на батутах, лазая по лабиринтам и строя замки в зоне LEGO.</string>
+    <string name="category_places_2_description">Батутный центр «FUN ZONE» — это место, где дети и взрослые могут весело провести время, прыгая на батутах и лазая по сеткам.</string>
+    <string name="category_places_3_description">Развлекательный центр «Хаха Парк» — это место, где дети могут весело провести время, играя на игровых площадках. Для самых маленьких посетителей предусмотрены безопасные зоны с мягкими покрытиями.</string>
+    <string name="category_places_4_description">Развлекательный центр «KIDO» — это место, где дети могут играть и развлекаться.</string>
+    <string name="category_places_5_description">Детский развивающий центр «СЛУШАРИКИ» - это место для развития детей, их заботливых родителей и опытных педагогов! </string>
+
 </resources>
