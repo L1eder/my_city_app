@@ -140,6 +140,38 @@ class RecommendationDataSource {
                 descriptionResId = R.string.category_parks_5_description,
                 imageResId = R.drawable.category_parks_5
             ),
+        ),
+        R.string.category_shop_centers to listOf(
+            Recommendation(
+                id = 1,
+                nameResId = R.string.category_shop_centers_1,
+                descriptionResId = R.string.category_shop_centers_1_description,
+                imageResId = R.drawable.category_shop_centers_1
+            ),
+            Recommendation(
+                id = 2,
+                nameResId = R.string.category_shop_centers_2,
+                descriptionResId = R.string.category_shop_centers_2_description,
+                imageResId = R.drawable.category_shop_centers_2
+            ),
+            Recommendation(
+                id = 3,
+                nameResId = R.string.category_shop_centers_3,
+                descriptionResId = R.string.category_shop_centers_3_description,
+                imageResId = R.drawable.category_shop_centers_3
+            ),
+            Recommendation(
+                id = 4,
+                nameResId = R.string.category_shop_centers_4,
+                descriptionResId = R.string.category_shop_centers_4_description,
+                imageResId = R.drawable.category_shop_centers_4
+            ),
+            Recommendation(
+                id = 5,
+                nameResId = R.string.category_shop_centers_5,
+                descriptionResId = R.string.category_shop_centers_5_description,
+                imageResId = R.drawable.category_shop_centers_5
+            ),
         )
     )
 
