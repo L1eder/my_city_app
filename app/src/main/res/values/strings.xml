@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">My City App</string>
+    <string name="title">Куда сходить в Ижевске?</string>
+    <string name="category_title">Какое место вы хотите посетить?</string>
+    <string name="details_title">Подробная информация</string>
 
     //categories
     <string name="category_cafe">Кафе</string>
