@@ -8,6 +8,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.mycityapp.data.datasource.RecommendationDataSource
 import com.example.mycityapp.data.repository.RecommendationRepository
+import com.example.mycityapp.presentation.Background
 import com.example.mycityapp.presentation.screen.CategoryScreen
 import com.example.mycityapp.presentation.screen.DetailsScreen
 import com.example.mycityapp.presentation.screen.RecommendationsScreen
@@ -23,7 +24,7 @@ class MainActivity : ComponentActivity() {
             val repository = RecommendationRepository(RecommendationDataSource())
             val categoryViewModel = CategoryViewModel(repository)
             val recommendationsViewModel = RecommendationsViewModel(repository)
-
+            Background()
             NavHost(navController = navController, startDestination = "categories") {
                 composable("categories") {
                     CategoryScreen(navController, categoryViewModel.categories)
