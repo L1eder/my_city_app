@@ -17,7 +17,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -51,9 +50,10 @@ fun RecommendationCard(recommendation: Recommendation, onClick: () -> Unit) {
             )
             Text(
                 text = stringResource(id = recommendation.nameResId),
-                style = MaterialTheme.typography.titleLarge.copy(
+                style = MaterialTheme.typography.bodyLarge.copy(
                     fontWeight = FontWeight.Bold
                 ),
+                fontSize = 24.sp,
                 modifier = Modifier.padding(bottom = 4.dp)
             )
         }
@@ -64,10 +64,9 @@ fun RecommendationCard(recommendation: Recommendation, onClick: () -> Unit) {
 fun CategoryTitle() {
     Text(
         text = stringResource(id = R.string.category_title),
-        style = TextStyle(
-            fontSize = 24.sp,
-            color = MaterialTheme.colorScheme.onBackground
-        ),
+        fontSize = 24.sp,
+        color = MaterialTheme.colorScheme.onBackground,
+        style = MaterialTheme.typography.bodyLarge,
         modifier = Modifier.padding(top = 20.dp)
     )
 }

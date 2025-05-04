@@ -13,7 +13,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.mycityapp.R
@@ -36,6 +35,7 @@ fun CategoryCard(categoryName: String, onClick: () -> Unit) {
             Text(
                 text = categoryName,
                 style = MaterialTheme.typography.bodyLarge
+
             )
             Spacer(modifier = Modifier.width(16.dp))
         }
@@ -46,10 +46,8 @@ fun CategoryCard(categoryName: String, onClick: () -> Unit) {
 fun Title() {
     Text(
         text = stringResource(id = R.string.title),
-        style = TextStyle(
-            fontSize = 24.sp,
-            color = MaterialTheme.colorScheme.onBackground
-        ),
+        style = MaterialTheme.typography.bodyLarge,
+        fontSize = 24.sp,
         modifier = Modifier.padding(top = 20.dp)
     )
 }

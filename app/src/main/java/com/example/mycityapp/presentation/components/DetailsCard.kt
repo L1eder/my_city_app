@@ -16,7 +16,6 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.unit.sp
 import com.example.mycityapp.R
 
@@ -47,13 +46,14 @@ fun DetailsCard(imageResId: Int, nameResId: Int, descriptionResId: Int) {
 
             Text(
                 text = stringResource(id = nameResId),
-                style = MaterialTheme.typography.titleLarge,
+                fontSize = 22.sp,
+                style = MaterialTheme.typography.bodyLarge,
                 modifier = Modifier.padding(bottom = 8.dp)
             )
 
             Text(
                 text = stringResource(id = descriptionResId),
-                style = MaterialTheme.typography.bodyMedium,
+                style = MaterialTheme.typography.bodyLarge,
                 modifier = Modifier.padding(bottom = 8.dp)
             )
         }
@@ -64,10 +64,9 @@ fun DetailsCard(imageResId: Int, nameResId: Int, descriptionResId: Int) {
 fun DetailsTitle() {
     Text(
         text = stringResource(id = R.string.details_title),
-        style = TextStyle(
-            fontSize = 24.sp,
-            color = MaterialTheme.colorScheme.onBackground
-        ),
+        fontSize = 24.sp,
+        color = MaterialTheme.colorScheme.onBackground,
+        style = MaterialTheme.typography.bodyLarge,
         modifier = Modifier.padding(top = 20.dp)
     )
 }
