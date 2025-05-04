@@ -1,3 +1,93 @@
 <resources>
     <string name="app_name">My City App</string>
+    <string name="title">Куда сходить в Ижевске?</string>
+    <string name="category_title">Какое место вы хотите посетить?</string>
+    <string name="details_title">Подробная информация</string>
+
+    //categories
+    <string name="category_cafe">Кафе</string>
+    <string name="category_restaurants">Рестораны</string>
+    <string name="category_places">Места для детей</string>
+    <string name="category_parks">Парки</string>
+    <string name="category_shop_centers">Торговые центры</string>
+
+    //---------------------------------------------------------
+
+    //categories_cafe
+    <string name="category_cafe_1">Chicko</string>
+    <string name="category_cafe_2">Frensis</string>
+    <string name="category_cafe_3">ЕЩЁ!</string>
+    <string name="category_cafe_4">Burger King</string>
+    <string name="category_cafe_5">Кофе Семь</string>
+
+    //categories_cafe_descriptions
+    <string name="category_cafe_1_description">«Chicko» — это кафе, стилизованное под Корею, где современная кухня сочетается с атмосферой K-pop. Интерьер выполнен в современном стиле с яркими акцентами и элементами корейского дизайна.</string>
+    <string name="category_cafe_2_description">«Frensis» — это место, где можно провести время в уютной атмосфере, наслаждаясь вкусной едой и красивым оформлением блюд.</string>
+    <string name="category_cafe_3_description">Пиццерии «ЕЩЁ!» расположены в шаговой доступности, в каждом районе города Ижевска. Пиццерии стали поистине знаковыми местами – здесь проходят детские праздники, студенческие перемены, романтические свидания, семейные выходные, Дни рождения и дружеские встречи. Теплый интерьер, спокойная музыка, удобный детский уголок и аромат свежевыпеченной пиццы сделают каждый день ЕЩЁ лучше!</string>
+    <string name="category_cafe_4_description">«Burger King» — это сеть ресторанов быстрого питания, которая предлагает широкий выбор бургеров, картофеля фри, наггетсов и других блюд.</string>
+    <string name="category_cafe_5_description">«Кофе Семь» — это уютное место с красивым видом из окон на собор Александра Невского. Здесь можно позавтракать, пообедать или поужинать, а также провести время за настольными играми</string>
+
+    //---------------------------------------------------------
+
+    //categories_restaurants
+    <string name="category_restaurant_1">Pride</string>
+    <string name="category_restaurant_2">Brauplatz</string>
+    <string name="category_restaurant_3">Нино играет в домино</string>
+    <string name="category_restaurant_4">Вино и Мясо</string>
+    <string name="category_restaurant_5">The Taste</string>
+
+    //categories_restaurants_descriptions
+    <string name="category_restaurant_1_description">Ресторан «Pride» — это идеальное место для проведения различных мероприятий, таких как дни рождения, свадьбы и корпоративы.</string>
+    <string name="category_restaurant_2_description">Ресторан «Brauplatz» — это место, где вы можете насладиться немецкой кухней и тремя сортами собственного пива.</string>
+    <string name="category_restaurant_3_description">Ресторан «Нино играет в домино» предлагает своим гостям блюда грузинской кухни, приготовленные по традиционным рецептам. В меню можно найти такие блюда, как хинкали, хачапури, овощи, приготовленные на мангале, а также медальоны из говядины.</string>
+    <string name="category_restaurant_4_description">Ресторан «Вино и Мясо» — это место, где вы можете насладиться вкусными стейками, салатами, супами и десертами, а также выбрать из обширной винной карты.</string>
+    <string name="category_restaurant_5_description">Ресторан «The Taste» специализируется на авторской кухне, но в меню также представлены блюда удмуртской и европейской кухни, а по будням можно заказать бизнес-ланч.</string>
+
+    //---------------------------------------------------------
+
+    //categories_places
+    <string name="category_places_1">Сигма Парк</string>
+    <string name="category_places_2">Батутный центр FUN ZONE</string>
+    <string name="category_places_3">ХАХА парк</string>
+    <string name="category_places_4">KIDO</string>
+    <string name="category_places_5">СЛУШАРИКИ</string>
+
+    //categories_places_descriptions
+    <string name="category_places_1_description">Игровая комната «Сигма парк» — это место, где дети могут весело провести время, играя на батутах, лазая по лабиринтам и строя замки в зоне LEGO.</string>
+    <string name="category_places_2_description">Батутный центр «FUN ZONE» — это место, где дети и взрослые могут весело провести время, прыгая на батутах и лазая по сеткам.</string>
+    <string name="category_places_3_description">Развлекательный центр «Хаха Парк» — это место, где дети могут весело провести время, играя на игровых площадках. Для самых маленьких посетителей предусмотрены безопасные зоны с мягкими покрытиями.</string>
+    <string name="category_places_4_description">Развлекательный центр «KIDO» — это место, где дети могут играть и развлекаться.</string>
+    <string name="category_places_5_description">Детский развивающий центр «СЛУШАРИКИ» - это место для развития детей, их заботливых родителей и опытных педагогов! </string>
+
+    //---------------------------------------------------------
+
+    //categories_parks
+    <string name="category_parks_1">Парк им. М. Горького</string>
+    <string name="category_parks_2">Парк им. С. М. Кирова</string>
+    <string name="category_parks_3">Козий парк</string>
+    <string name="category_parks_4">Парк Оружейника Драгунова</string>
+    <string name="category_parks_5">Тишино парк</string>
+
+    //categories_parks_descriptions
+    <string name="category_parks_1_description">Летний сад имени М. Горького — один из главных и старейших парков Ижевска. Он был создан в 1857 году, когда был построен Генеральский дом архитектором Иваном Коковихиным.</string>
+    <string name="category_parks_2_description">Парк культуры и отдыха имени С. М. Кирова расположен в Октябрьском районе города Ижевска. Он был основан в 1933 году по проекту архитекторов А. С. Коробова и Е. П. Беневоленского. В 1934 году парк был благоустроен клумбами, павильонами, беседками, киосками и танцевальными площадками.</string>
+    <string name="category_parks_3_description">«Козий парк» — это парк культуры и отдыха, расположенный в центре города. Он был создан на месте бывшего оврага, который был облагорожен и превращен в современную интерактивную площадку.</string>
+    <string name="category_parks_4_description">Парк оружейника Драгунова — это площадь-амфитеатр, пруд и зоны отдыха у воды, идеальное место для прогулок на свежем воздухе среди роскошных деревьев.</string>
+    <string name="category_parks_5_description">Парк культуры и отдыха «Тишино» — это современное общественное пространство, расположенное в хвойном лесу.</string>
+
+    //---------------------------------------------------------
+
+    //categories_shop_centers
+    <string name="category_shop_centers_1">ТРЦ Талисман</string>
+    <string name="category_shop_centers_2">ТЦ Флагман</string>
+    <string name="category_shop_centers_3">ТРЦ Омега</string>
+    <string name="category_shop_centers_4">ТЦ Петровский</string>
+    <string name="category_shop_centers_5">ТЦ Эльгрин</string>
+
+    <string name="category_shop_centers_1_description">Торгово-развлекательный центр «Талисман» – это современный торгово-развлекательный центр европейского уровня, сочетающий в себе инновационные архитектурные решения, функциональные планировки и качественный подбор арендаторов.</string>
+    <string name="category_shop_centers_2_description">ТЦ «Флагман» - семейный торговый центр, где представлены мужские, женские и детские бренды. Ставка сделана на монобрендовые и мультибрендовые бутики известных марок одежды, обуви, аксессуаров и техники. Торговый центр расположен вдоль улицы Удмуртской, являющейся одной из главных магистралей республиканского значения.</string>
+    <string name="category_shop_centers_3_description">ТРЦ «Омега»- это территория увлекательного шопинга и разнообразного семейного отдыха.</string>
+    <string name="category_shop_centers_4_description">ТЦ «Петровский» — это современный торгово-развлекательный комплекс для комфортного досуга всей семьи.</string>
+    <string name="category_shop_centers_5_description">ТЦ «Эльгрин» — это один из немногих многофункциональных комплексов, расположенных непосредственно в бизнес зоне города, в 8 минутах езды от исторического центра города.</string>
+
 </resources>
