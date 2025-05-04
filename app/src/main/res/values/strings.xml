@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My City App</string>
+
+    //categories
+    <string name="category_cafe">Кафе</string>
+    <string name="category_restaurants">Рестораны</string>
+    <string name="category_places">Места для детей</string>
+    <string name="category_parks">Парки</string>
+    <string name="category_shop_centers">Торговые центры</string>
 </resources>
