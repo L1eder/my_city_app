@@ -76,6 +76,70 @@ class RecommendationDataSource {
                 descriptionResId = R.string.category_restaurant_4_description,
                 imageResId = R.drawable.category_restaurants_4
             ),
+        ),
+        R.string.category_places to listOf(
+            Recommendation(
+                id = 1,
+                nameResId = R.string.category_places_1,
+                descriptionResId = R.string.category_places_1_description,
+                imageResId = R.drawable.category_places_1
+            ),
+            Recommendation(
+                id = 2,
+                nameResId = R.string.category_places_2,
+                descriptionResId = R.string.category_places_2_description,
+                imageResId = R.drawable.category_places_2
+            ),
+            Recommendation(
+                id = 3,
+                nameResId = R.string.category_places_3,
+                descriptionResId = R.string.category_places_3_description,
+                imageResId = R.drawable.category_places_3
+            ),
+            Recommendation(
+                id = 4,
+                nameResId = R.string.category_places_4,
+                descriptionResId = R.string.category_places_4_description,
+                imageResId = R.drawable.category_places_4
+            ),
+            Recommendation(
+                id = 5,
+                nameResId = R.string.category_places_5,
+                descriptionResId = R.string.category_places_5_description,
+                imageResId = R.drawable.category_places_5
+            ),
+        ),
+        R.string.category_parks to listOf(
+            Recommendation(
+                id = 1,
+                nameResId = R.string.category_parks_1,
+                descriptionResId = R.string.category_parks_1_description,
+                imageResId = R.drawable.category_parks_1
+            ),
+            Recommendation(
+                id = 2,
+                nameResId = R.string.category_parks_2,
+                descriptionResId = R.string.category_parks_2_description,
+                imageResId = R.drawable.category_parks_2
+            ),
+            Recommendation(
+                id = 3,
+                nameResId = R.string.category_parks_3,
+                descriptionResId = R.string.category_parks_3_description,
+                imageResId = R.drawable.category_parks_3
+            ),
+            Recommendation(
+                id = 4,
+                nameResId = R.string.category_parks_4,
+                descriptionResId = R.string.category_parks_4_description,
+                imageResId = R.drawable.category_parks_4
+            ),
+            Recommendation(
+                id = 5,
+                nameResId = R.string.category_parks_5,
+                descriptionResId = R.string.category_parks_5_description,
+                imageResId = R.drawable.category_parks_5
+            ),
         )
     )
 
