@@ -175,7 +175,9 @@ class RecommendationDataSource {
         )
     )
 
-    fun getCategories() = categories
+    fun getCategories(): List<Int> {
+        return categories
+    }
 
     fun getRecommendations(categoryId: Int): List<Recommendation> {
         return recommendations[categoryId] ?: emptyList()
