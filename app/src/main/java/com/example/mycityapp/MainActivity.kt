@@ -8,6 +8,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.mycityapp.data.datasource.RecommendationDataSource
 import com.example.mycityapp.data.repository.RecommendationRepository
+import com.example.mycityapp.navigation.Routes
 import com.example.mycityapp.presentation.Background
 import com.example.mycityapp.presentation.screen.CategoryScreen
 import com.example.mycityapp.presentation.screen.DetailsScreen
@@ -25,20 +26,28 @@ class MainActivity : ComponentActivity() {
             val categoryViewModel = CategoryViewModel(repository)
             val recommendationsViewModel = RecommendationsViewModel(repository)
             Background()
-            NavHost(navController = navController, startDestination = "categories") {
-                composable("categories") {
+            NavHost(
+                navController = navController,
+                startDestination = Routes.CATEGORIES
+            ) {
+                composable(Routes.CATEGORIES) {
                     CategoryScreen(navController, categoryViewModel.categories)
                 }
-                composable("recommendations/{categoryId}") { backStackEntry ->
-                    val categoryId = backStackEntry.arguments?.getString("categoryId")?.toIntOrNull()
-                    recommendationsViewModel.loadRecommendations(categoryId ?: 0)
-                    RecommendationsScreen(navController, recommendationsViewModel, categoryId ?: 0)
+                composable(Routes.RECOMMENDATIONS) { backStackEntry ->
+                    val categoryIdStr = backStackEntry.arguments?.getString("categoryId")
+                    val categoryId = categoryIdStr?.toIntOrNull() ?: 0
+                    recommendationsViewModel.loadRecommendations(categoryId)
+                    RecommendationsScreen(navController, recommendationsViewModel, categoryId)
                 }
-                composable("details/{categoryId}/{recommendationId}") { backStackEntry ->
-                    val categoryId = backStackEntry.arguments?.getString("categoryId")?.toIntOrNull()
-                    val recommendationId = backStackEntry.arguments?.getString("recommendationId")?.toIntOrNull()
+                composable(Routes.DETAILS) { backStackEntry ->
+                    val args = backStackEntry.arguments
+                    val categoryIdStr = args?.getString("categoryId")
+                    val recommendationIdStr = args?.getString("recommendationId")
+                    val categoryId = categoryIdStr?.toIntOrNull() ?: 0
+                    val recommendationId = recommendationIdStr?.toIntOrNull() ?: 0
+
                     val detailsViewModel = DetailsViewModel(repository)
-                    if (categoryId != null && recommendationId != null) {
+                    if (categoryId != 0 && recommendationId != 0) {
                         detailsViewModel.loadRecommendation(categoryId, recommendationId)
                     }
                     DetailsScreen(detailsViewModel)
